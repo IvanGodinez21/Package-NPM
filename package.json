@@ -1,0 +1,24 @@
+{
+  "name": "@ivangodinez21/package-npm",
+  "version": "1.0.0",
+  "description": "A template to publish packages to NPM and GitHub",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanGodinez21/Package-NPM.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Jesús Iván Godínez Martínez"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanGodinez21/Package-NPM/issues"
+  },
+  "homepage": "https://github.com/IvanGodinez21/Package-NPM#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
