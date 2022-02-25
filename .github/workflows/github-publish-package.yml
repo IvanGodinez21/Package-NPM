@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-          scope: '@IvanGodinez21'
+          scope: "@${{GITHUB_REPOSITORY_OWNER}}"
       - run: npm install
       - run: npm publish --access public
         env:

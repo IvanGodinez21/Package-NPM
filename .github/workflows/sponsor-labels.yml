@@ -1,5 +1,5 @@
 name: Sponsor labels
-on: 
+on:
   pull_request:
     types: [opened]
   issues:
@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     name: Add Sponsor Labels
     steps:
-    - name: Add Sponsor Labels
-      id: sponsor-labels
-      uses: brianlagunas/sponsor-action@v1.0
-      with:
-        label: sponsor 💖
-        maintainers: 'IvanGodinez21'
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Add Sponsor Labels
+        id: sponsor-labels
+        uses: brianlagunas/sponsor-action@v1.0
+        with:
+          label: sponsor 💖
+          maintainers: "${{GITHUB_REPOSITORY_OWNER}}"
+          github_token: ${{secrets.GITHUB_TOKEN}}
